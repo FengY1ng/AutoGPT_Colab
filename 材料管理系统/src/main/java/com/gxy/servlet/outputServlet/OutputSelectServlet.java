@@ -20,7 +20,6 @@ public class OutputSelectServlet extends HttpServlet {
         req.setCharacterEncoding("utf8");
         OutputDaoImpl outputDao = new OutputDaoImpl();
         List<Output> outputlist = outputDao.outputSelect();
-        System.out.println(outputlist);
         req.setAttribute("outputlist",outputlist);
         req.getRequestDispatcher("selectAllOutput.jsp").forward(req,resp);
     }

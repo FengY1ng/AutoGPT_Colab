@@ -20,7 +20,7 @@
 <a href="/pigeonholeselect">导入汇总表</a><br>
 <a href="/pigeonholeexcel">打印月汇总信息表</a><br>
 <a href="/pigeonholeclear">清空汇总表</a><br>
-<a href="index.jsp">返回首页</a>
+<a href="head.jsp">返回首页</a>
 <table class="table table-bordered" >
     <tr>
         <td>材料编码</td>

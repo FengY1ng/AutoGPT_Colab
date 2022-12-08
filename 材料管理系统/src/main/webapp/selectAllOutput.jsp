@@ -14,15 +14,15 @@
 <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.css">
 <head>
     <meta charset="UTF-8">
-    <title>出库表信息</title>
+    <title>出库表信息！！！</title>
     <script type="text/javascript"></script>
 </head>
 <body>
 <h3>出库表信息</h3>
-<a href="addOutput.html">添加出库信息</a><br>
+<a href="addOutput.jsp">添加出库信息</a><br>
 <a href="/outputexcel">导出出库信息表</a><br>
 <a href="/outputclear">清空出库表</a><br>
-<a href="index.jsp">返回首页</a>
+<a href="head.jsp">返回首页</a>
 <table class="table table-bordered" >
     <tr>
         <td>材料编码</td>

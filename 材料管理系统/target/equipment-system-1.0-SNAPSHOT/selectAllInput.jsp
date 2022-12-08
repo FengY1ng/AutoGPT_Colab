@@ -20,10 +20,10 @@
   </head>
   <body>
   <h3>入库表信息</h3>
-  <a href="addInput.html">添加入库信息</a><br>
+  <a href="addInput.jsp">添加入库信息</a><br>
   <a href="/inputexcel">导出入库信息表</a><br>
   <a href="/inputclear">清空入库表</a><br>
-  <a href="index.jsp">返回首页</a>
+  <a href="head.jsp">返回首页</a>
   <table class="table table-bordered" >
     <tr>
       <td>材料编码</td>

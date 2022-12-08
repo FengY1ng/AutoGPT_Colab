@@ -30,9 +30,10 @@ public class OutputDaoImpl implements OutputDao {
             preparedStatement.setInt(3, num);   //num
             preparedStatement.setInt(4, sell_price);   //sell_price
             preparedStatement.setString(5, date_out);   //date_out
-            sql = "update warehouse set num=num-?";  //更总库中num的数量
+            sql = "update warehouse set num=num-? where ID=?";  //更总库中num的数量
             PreparedStatement preparedStatement2 = connection.prepareStatement(sql);
             preparedStatement2.setInt(1, num);
+            preparedStatement2.setString(2, id);
             int i1 = preparedStatement2.executeUpdate(); //总表材料更新数量
             int i = preparedStatement.executeUpdate();  //入库表插入数据
             if (i != -1 && i1 != -1) {  //回滚数据！！！

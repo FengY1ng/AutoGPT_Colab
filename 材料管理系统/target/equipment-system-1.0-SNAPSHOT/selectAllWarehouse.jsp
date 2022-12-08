@@ -19,8 +19,8 @@
 </head>
 <body>
 <h3>总库存信息</h3>
-<a href="/warehouseexcel">导出总库信息表</a>(清空入库表)<br>
-<a href="index.jsp">返回首页</a>
+<a href="/warehouseexcel">导总库信息表</a><br>
+<a href="head.jsp">返回首页</a>
 <table class="table table-bordered" >
     <tr>
         <td>材料编码</td>
