@@ -16,51 +16,39 @@
     <div class="menuToggle"></div>
     <ul>
         <li class="list active">
-            <a href="#" style="--clr: #f44336;">
+            <a href="/inputselect" style="--clr: #f44336;">
                 <div class="icon">
                     <span class="iconfont">&#xe603;</span>
                 </div>
-                <span class="text">Home</span>
+                <span class="text">操作入库表信息</span>
             </a>
         </li>
         <li class="list">
-            <a href="#" style="--clr: #ffa117;">
+            <a href="/outputselect" style="--clr: #ffa117;">
                 <div class="icon">
                     <span class="iconfont">&#xe61c;</span>
                 </div>
-                <span class="text">About</span>
+                <span class="text">操作出库表信息</span>
             </a>
         </li>
         <li class="list">
-            <a href="#" style="--clr: #0fc70f;">
+            <a href="/selectAllPigeonhole.jsp" style="--clr: #0fc70f;">
                 <div class="icon">
                     <span class="iconfont">&#xe60f;</span>
                 </div>
-                <span class="text">Message</span>
+                <span class="text">查看汇总表信息</span>
             </a>
         </li>
         <li class="list">
-            <a href="#" style="--clr: #2196f3;">
+            <a href="/warehousedeletebyid" style="--clr: #2196f3;">
                 <div class="icon">
                     <span class="iconfont">&#xe60e;</span>
                 </div>
-                <span class="text">Photos</span>
-            </a>
-        </li>
-        <li class="list">
-            <a href="#" style="--clr: #088f82;">
-                <div class="icon">
-                    <span class="iconfont">&#xe657;</span>
-                </div>
-                <span class="text">Settings</span>
+                <span class="text">查看总库存信息</span>
             </a>
         </li>
     </ul>
 </div>
 <script src="js/scitpt.js"></script>
-<a href="/inputselect">操作入库表信息</a>
-<a href="/outputselect">操作出库表信息</a><br>
-<a href="/selectAllPigeonhole.jsp">查看汇总表信息</a><br>
-<a href="/warehousedeletebyid">查看总库存信息</a>
 </body>
 </html>

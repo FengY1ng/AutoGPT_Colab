@@ -1,6 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&diasply=swap'); */
-/*引用谷歌字体*/
-@import './google-font.css';
+@import 'google-font.css';
 
 *{
   margin: 0;
